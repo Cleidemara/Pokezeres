@@ -32,7 +32,7 @@ class Pokezeres extends Component {
           {this.state.pokelist.map((item, index) => (
             <div key={index} className="box-map-return">
               <PokeImg url={item.url} />
-              <div>
+              <div className="texto">
                 <h2 className="subtitle">{item.name}</h2>
                 <p className="descrition">
                   Lorem Ipsum is simply dummy text of the printing and
